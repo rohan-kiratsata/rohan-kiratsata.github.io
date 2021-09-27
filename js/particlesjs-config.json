@@ -1,23 +1,23 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#000000"
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
+        "width": 1,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 4
       },
       "image": {
         "src": "img/github.svg",
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 5,
+      "value": 2.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -48,7 +48,7 @@
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#000000",
       "opacity": 0.4,
       "width": 1
     },
@@ -59,6 +59,7 @@
       "random": false,
       "straight": false,
       "out_mode": "out",
+      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
@@ -71,7 +72,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
@@ -81,7 +82,7 @@
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 207.079689136843,
         "line_linked": {
           "opacity": 1
         }
@@ -94,7 +95,8 @@
         "speed": 3
       },
       "repulse": {
-        "distance": 200
+        "distance": 200,
+        "duration": 0.4
       },
       "push": {
         "particles_nb": 4
@@ -104,13 +106,5 @@
       }
     }
   },
-  "retina_detect": true,
-  "config_demo": {
-    "hide_card": false,
-    "background_color": "#b61924",
-    "background_image": "",
-    "background_position": "50% 50%",
-    "background_repeat": "no-repeat",
-    "background_size": "cover"
-  }
+  "retina_detect": true
 }
