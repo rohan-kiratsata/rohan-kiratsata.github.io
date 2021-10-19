@@ -1,6 +1,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  color: #000;
 }
 #particles-js{
   position: absolute;
@@ -15,7 +16,8 @@ body{
   height: 90vh;
   padding: 1.2em;
   font-size: 3vh;
-  color: #000;
+  /* Imp */
+  /* color: #000; */
   
   display: flex;
   justify-content: space-evenly;
@@ -41,4 +43,22 @@ body{
 }
 #contact:hover{
   color: rgb(0, 0, 0);
+}
+
+.toggle-theme{
+  background-color: #222;
+  color: #fff;
+}
+.toggleBtn{
+  background-color: #333;
+  color: #fff;
+  border-radius: 20%;
+  padding: 10px;
+  /* height: 50px;
+  width: 50px; */
+}
+.themeBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
 }
