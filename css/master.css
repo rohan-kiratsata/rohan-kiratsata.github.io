@@ -62,3 +62,21 @@ body{
   bottom: 20px;
   right: 30px;
 }
+
+.btn {
+  background-color: transparent;
+  border: 2px rgb(0, 123, 255) solid;
+  padding: 10px;
+  font-size: 2vh;
+  font-family: 'Poppins', sans-serif;;
+  font-weight: 600;
+  color: rgb(0, 123, 255);
+  border-radius: 8px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #fff;
+  background-color: rgb(0, 123, 255);
+  transition: all .5s ease-out;
+}
