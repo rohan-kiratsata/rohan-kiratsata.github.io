@@ -46,9 +46,14 @@ body{
 }
 
 .toggle-theme{
-  background-color: #222;
+  background-color: #111;
   color: #fff;
 }
+/* .dark-toggle > .bar{
+  background-color: #000;
+
+} */
+
 .toggleBtn{
   background-color: #333;
   color: #fff;
@@ -79,4 +84,77 @@ body{
   color: #fff;
   background-color: rgb(0, 123, 255);
   transition: all .5s ease-out;
+}
+.skills-container{
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: cyan; */
+  /* text-align: center; */
+  /* align-self: ; */
+}
+
+@keyframes load {
+  from{
+    width: 0%;
+  }
+}
+@-webkit-keyframes load{
+  from{
+    width: 0%;
+  }
+}
+@-moz-keyframes load{
+  from{
+    width: 0%;
+  }
+}
+@-o-keyframes load{
+  from{
+    width: 0%;
+  }
+}
+
+.bar{
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.bar::before{
+  content: attr(data-skill);
+  background-color: rgb(0, 123, 255);
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+
+.bar.front::before{
+  background-color: #ffcc33;
+}
+.bar.back::before{
+  background-color: rgb(0, 123, 255);
+}
+.bar.learning::before{
+  width: calc(20% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.advanced::before{
+  width: calc(80% - 10px);
+}
+.bar.expert::before{
+  width: calc(95% - 10px);
 }
