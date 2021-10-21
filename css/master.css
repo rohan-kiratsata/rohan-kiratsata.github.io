@@ -158,3 +158,13 @@ body{
 .bar.expert::before{
   width: calc(95% - 10px);
 }
+
+
+@media only screen and (max-width: 500px){
+  .skills-container{
+    margin-top: 100px;
+  }
+  .bar{
+    font-size: 3vw;
+  }
+}
