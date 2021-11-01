@@ -1,87 +1,222 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPTBPTK6CW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohan Kiratsata</title>
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- Bootstrap Links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/65945f4f5e.js" crossorigin="anonymous"></script>
 
-    gtag('config', 'G-VPTBPTK6CW');
-  </script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>Hii, It's Rohan</title>
-
-
-  <span>
-    <!-- Google Fonts Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet">
-    <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/65945f4f5e.js" crossorigin="anonymous"></script>
-
-    <!-- CSS Links -->
-    <link rel="stylesheet" href="css/master.css">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
-  </span>
 </head>
 
 <body>
-  <!-- <div id="particles-js"></div> -->
-  <div class="wrapper">
-    <div class="bio">
-      <h1>Hi, I'm Rohan &#128075;</h1>
-      <p>
-        I'm a <a href="https://fiverr.com/rohankiratsata">freelance</a> graphic designer and coding enthusiast.
-        <br> Currently working on Android and Java <br> and looking forward to Open-Source Contribution.
+  <!-- Heading Div -->
+  <div class="container heading-container">
+    <div class="row align-items-center">
+      <div class="col-sm intro-col">
+        <h1>Hi, I'm Rohan</h1>
+        <p>
+          I'm a <a href="https://fiverr.com/rohankiratsata">freelance</a> graphic designer and coding enthusiast.
+          <br> Currently working on Android and Unity3D and looking forward to Open-Source Contribution. Apart from
+          coding, I like music & games.
+          Feel free to hit me up <a href="mailto:kiratsatarohan@gmail.com">here</a>.
+        </p>
+        <p id="icons">
+          <a href="https://github.com/rohan-kiratsata" id="contact-icons" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
 
-        <br>I sometimes write
-        <a href="https://dev.to/rohankiratsata">blogs</a>.
-        Feel free to hit me up <a href="mailto:kiratsatarohan@gmail.com">here</a>.
-      </p>
+          <a href="https://rohan-dev.itch.io/" id="contact-icons" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="Itch.io"><i class="fab fa-itch-io fa-lg"></i></a>
 
-      <a href="https://github.com/rohan-kiratsata" id="contact"><i class="fab fa-github fa-lg"></i></a>
-      <a href="https://rohan-dev.itch.io/" id="contact"><i class="fab fa-itch-io fa-lg"></i></a>
-      <a href="https://www.linkedin.com/in/rohankiratsata/" id="contact"><i class="fab fa-linkedin-in fa-lg"></i></a>
-      <a href="https://www.instagram.com/rohan14.io/" id="contact"><i class="fab fa-instagram fa-lg"></i></a>
-      <a href="https://twitter.com/RohanKiratsata"><i class="fab fa-twitter fa-lg" id="contact"></i></a>
-      <br><br>
-      <a href="https://github.com/rohan-kiratsata">
-        <button type="button" class="btn projects-btn">Projects</button>
-      </a>
-      <a href="404.html">
-        <button type="button" class="btn projects-btn">Products</button>
-      </a>
-      <br><br>
+          <a href="https://www.linkedin.com/in/rohankiratsata/" id="contact" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+
+          <a href="https://www.instagram.com/rohan14.io/" id="contact-icons" data-bs-toggle="tooltip"
+            data-bs-placement="bottom" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+
+          <a href="https://twitter.com/RohanKiratsata" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="Twitter"><i class="fab fa-twitter fa-lg" id="contact-icons"></i></a>
+
+          <a href="https://dev.to/rohankiratsata" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blogs"><i
+              class="fab fa-dev fa-lg" id="contact-icons"></i></a>
+        </p>
+      </div>
+      <div class="col-sm col-profile-img">
+        <img src="Images/circle-cropped.png" alt="" width="300px">
+      </div>
     </div>
-    <div class="profile">
-      <img src="images/circle-cropped.png" alt="">
-    </div>
-  </div>
-  <div class="themeBtn">
-    <button class="toggleBtn" onclick="toggleTheme()"><i class="fas fa-adjust fa-lg"></i></button>
-  </div>
-  <!-- <br> -->
-  <div class="skills-container">
-    <h1 style="text-align: center; font-weight: 500;">My Skills</h1>
-    <div class="bar back expert" data-skill="Java"></div>
-    <div class="bar back advanced" data-skill="Python"></div>
-    <div class="bar back intermediate" data-skill="Android Development"></div>
-    <div class="bar back learning" data-skill="C#"></div>
   </div>
 
-  <!-- Particle JS Scripts -->
-  <!-- <script src="js/particles.js"></script>
-  <script src="js/app.js"></script> -->
-  <script src="js/theme-toggle.js"></script>
+  <!-- Skills Container -->
+  <div class="container skills-container">
+    <div class="row align-items-middle">
+      <div class="col-sm">
+        <!-- <h2></h2> -->
+        <h2>Tech I'm Familiar with</h2>
+        <div class="container cont-sub">
+          <div class="row tech-row">
+            <div class="col-sm col-sub">
+              <img src="Images/java.png" alt="">
+              <h6>Java</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/python_logo.png" alt="">
+              <h6>Python</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/cpp_logo.png" alt="">
+              <h6>C++</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/js_logo.png" alt="">
+              <h6>JavaScript</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/unity_logo.png" alt="">
+              <h6>Unity3D</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/android-svg.svg" alt="">
+              <h6>Android</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/google-cloud-logo-5.png" alt="">
+              <h6>Google Cloud</h6>
+            </div>
+            <div class="col-sm col-sub">
+              <img src="Images/kubernets.svg.png" alt="">
+              <h6>Kubernetes</h6>
+            </div>
+
+            <div class="col-sm col-sub">
+              <img src="Images/flask.png" alt="">
+              <h6>Flask</h6>
+            </div>
+
+            <!-- <div class="col-sm col-sub">
+              <img src="Images/tkinter.png" alt="">
+              <h6>Tkinter</h6>
+            </div> -->
+
+            <div class="col-sm col-sub">
+              <img src="Images/firebase.png" alt="">
+              <h6>Firebase</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <h2>My Skills</h2>
+        <br>
+        <span id="skills-content">Java</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+
+        <span id="skills-content">Python</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <span id="skills-content">Android</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+        <span id="skills-content">Unity3D (C#)</span>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container projects-container">
+    <h1>Projects</h1><br>
+    <div class="row">
+
+      <div class="col-sm-6">
+        <div class="card project-card">
+          <!-- <img src="Images/coding-cheatsheet.png" class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Coding Cheat Sheets</h5>
+            <p class="card-text">Coding CheatSheet is an open-source project for beginners and for people who want to
+              brush up their skills. This project aims to help students and coders to revise the fundamental concepts of
+              programming languages and many more.</p>
+            <a href="https://rohan-kiratsata.github.io/coding-cheatsheets/" class="btn btn-primary">Visit Site</a> <a href="https://github.com/rohan-kiratsata/coding-cheatsheets" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card project-card">
+          <!-- <img src="Images/android-svg.svg" class="card-img-top" alt="..."> -->
+          <div class="card-body">
+            <h5 class="card-title">Strong Password Generator</h5>
+            <p class="card-text">Simple & Strong Password Generator using HTML, CSS & JavaScript.</p>
+            <a href="https://rohan-kiratsata.github.io/password-generator-js/" class="btn btn-primary">Visit Site</a> <a href="https://github.com/rohan-kiratsata/password-generator-js" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Inspirational Quote Generator</h5>
+            <p class="card-text">Inspirational Quote Generator using API, JavaScript, HTML & CSS</p>
+            <a href="https://rohan-kiratsata.github.io/random-quote-generator-js/" class="btn btn-primary">Visit Site</a> <a href="https://github.com/rohan-kiratsata/random-quote-generator-js" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-sm-6">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">Saviour's Adventure</h5>
+            <p class="card-text">Saviour's Adventure is a 2D Mini-Game built using the Unity game engine in C#.</p>
+            <a href="https://rohan-dev.itch.io/saviors-adventure" class="btn btn-primary">Download Game</a> <a href="https://github.com/rohan-kiratsata/saviours-adventure-unity" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card project-card">
+          <div class="card-body">
+            <h5 class="card-title">IMG2PDF Converter-Python Tkinter</h5>
+            <p class="card-text">GUI IMG2PDF Converter Application built using Python and Tkinter</p>
+            <a href="https://dev.to/rohankiratsata/lets-create-a-simple-pdf-to-img-converter-in-python-3glc" class="btn btn-primary">Blog Post</a>
+            <a href="https://github.com/rohan-kiratsata/img2pdf-converter-tkinter" class="btn btn-primary">Code</a>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <!--  -->
+  <!--  -->
+  <!--  -->
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
