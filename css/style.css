@@ -51,6 +51,22 @@ body{
 .card-body:hover{
   background-color: rgb(245, 245, 245);
 }
+.blog-sol{
+  /* border: #111 solid; */
+  margin: 10px;
+}
+.blog-sol img{
+  border-radius: 15px;
+  /* border: #111 solid; */
+  box-shadow: rgb(156, 187, 255) 1px 1px 30px;
+}
+.blog-sol p{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+
 /* Media Queries */
 @media screen and (max-width:564px) {
   .heading-container{
