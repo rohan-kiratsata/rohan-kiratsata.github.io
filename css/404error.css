@@ -19,6 +19,7 @@ canvas {
   padding: 2em 3em;
   background: rgba(0, 0, 0, .4);
   font-family: 'Karla', sans-serif;
+  text-align: center;
   /* white-space: nowrap; */
 }
 
@@ -45,4 +46,8 @@ a:visited{
 a:hover{
   text-decoration: underline;
   color: rgb(75, 183, 255);
+}
+
+@media screen  and (max-width:567px){
+  
 }

@@ -49,7 +49,7 @@ body{
   margin: 10px;
 }
 .card-body:hover{
-  background-color: #eee;
+  background-color: rgb(245, 245, 245);
 }
 /* Media Queries */
 @media screen and (max-width:564px) {
