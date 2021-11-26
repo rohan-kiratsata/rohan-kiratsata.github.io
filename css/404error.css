@@ -32,6 +32,8 @@ h1{
 p{
   font-size: 3vh;
   font-weight: 300;
+  
+
 }
 
 a{
@@ -49,5 +51,13 @@ a:hover{
 }
 
 @media screen  and (max-width:567px){
-  
+
+    .text{
+      /* margin: 10px; */
+      max-width: max-content;
+      width: 100%;
+    }
+    h1{
+      font-size: 3.5vh;
+    }
 }
