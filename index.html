@@ -2,297 +2,213 @@
 <html lang="en">
 
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0ZFVC59Z3T"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-0ZFVC59Z3T');
-  </script>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rohan Kiratsata</title>
-  <!-- CSS Links -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Favicon Link -->
-  <link rel="shortcut icon" href="images/favicon_io/favicon.ico" type="image/icon">
-  <!-- Bootstrap Links -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/65945f4f5e.js" crossorigin="anonymous"></script>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Google Roboto Mono Font -->
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+  <link rel="stylesheet" href="/assets/index.3d34a589.css">
 </head>
 
 <body>
-  <!-- Heading Div -->
-  <div class="container heading-container">
-    <div class="row align-items-center">
-      <div class="col-sm intro-col">
-        <h1>Hi, I'm Rohan &#128075;</h1>
-        <p>
-          I'm a coding enthusiast and blogger. Currently working on Java and ReactJS. Cyber Security and Cryptography
-          are my subjects of interest. Apart from
-          coding, I like music, graphic designing and blogging.
-          Feel free to mail me <a href="mailto:kiratsatarohan@gmail.com">here</a>.
+
+    <div class="flex h-screen items-center">
+        <div class="mx-6 md:mx-32 text-gray-800">
+            <p class="text-4xl md:text-8xl leading-snug md:leading-snug font-bold ">
+                Hii, I'm Rohan.<br>
+                I'm a <span class="text-blue-600" id="type-text"></span>
+            </p>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="py-5 bg-white">
+        <div class="flex flex-col m-6 md:mx-32 md:my-10 w-3/4 md:w-3/5">
+            <!-- Copy on above line if n -->
+            <!-- About m-6 md:mx-32 md:my-10 w-3/4 md:w-3/6-->
+            <div class="my-10">
+                <p class="text-xl text-gray-400">ABOUT</p>
+            </div>
+            <div class="mb-10">
+                <p class="text-4xl md:text-6xl font-bold text-gradient">
+                    I'm just a boy curious about coding.
+                </p>
+            </div>
+            <div class="my-4">
+                <p class="text-2xl md:text-3xl text-gray-500 font-light">
+                    My name's <strong class="font-black">Rohan Kiratsata</strong>. I'm a frontend web developer and a UI
+                    designer, but I still
+                    google how to center a div... just kidding...
+                </p>
+            </div>
+            <div class="my-4">
+                <p class="text-2xl md:text-3xl text-gray-500 font-light">
+                    I’m currently learning ReactJS and TailwindCSS. Cybersecurity and Cryptography are my subject of
+                    interest. I'm also fluent in Java and JavaScript.
+                </p>
+            </div>
+            <div class="my-4">
+                <p class="text-2xl md:text-3xl text-gray-500 font-light">
+                    Apart from coding, I like music, blogging, YouTube, minimalism and umm.. reading books in free
+                    time.<br>Feel free to drop me a <a href="mailto:kiratsatarohan@gmail.com"
+                        class="text-blue-600 font-semibold">mail</a>.
+                </p>
+            </div>
+            <!-- SKILLS -->
+            <div class="my-10">
+                <p class="text-xl text-gray-400">SKILLS</p>
+            </div>
+            <div>
+                <p class="text-2xl my-5 font-black flex flex-wrap flex-col place-content-between md:flex-row">
+                    <span class="text-lime-600 mr-5">HTML</span>
+                    <span class="text-pink-600 mr-5">CSS/SCSS</span>
+                    <span class="text-yellow-400 mr-5">JavaScript</span>
+                    <span class="text-teal-400 mr-5">ReactJS</span>
+                    <span class="text-red-700 mr-5">Java</span>
+                    <span class="text-blue-600 mr-5">UI Designing</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- !WORK -->
+        <div class="my-10 m-6 md:mx-32 md:my-10">
+            <p class="text-xl text-gray-400">WORK</p>
+        </div>
+        <!-- !WORK Content -->
+        <div class="flex flex-wrap m-6 md:mx-32 md:w-3/5  md:place-content-between  text-gray-500">
+            <div class="item flex flex-col">
+                <div class="rounded-sm scale-div">
+                    <a href="https://rohan-kiratsata.github.io/soothing-sounds/">
+                        <img src="https://picsum.photos/400/300" alt="" class="rounded-lg">
+                    </a>
+                </div>
+                <p class="text-3xl my-3">Soothing Sounds</p>
+                <p class="text-sm my-1">NOV 2021</p>
+                <p class="text-lg my-1">Soothing Sounds is a website that has various ambient sounds to relax,
+                    release stress, study or while working to keep you focused.</p>
+                <p class="text-sm my-1 mb-3">TAGS</p>
+                <p>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center mr-2">
+                        HTML & CSS
+                    </span>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center">
+                        JavaScript
+                    </span>
+                </p>
+            </div>
+            <div class="item flex flex-col">
+                <div class="rounded-sm scale-div">
+                    <a href="http://spend-ambani-fortune.fun/">
+                        <img src="https://picsum.photos/400/300" alt="" class="rounded-lg">
+                    </a>
+                </div>
+                <p class="text-3xl my-3">Spend Fortune Game</p>
+                <p class="text-sm my-1">DEC 2021</p>
+                <p class="text-lg my-1">Mukesh Ambani is India's richest person with a net worth of 95.7 Billion USD.
+                    Wonder If you can spend all of his wealth.
+                    What would you spend it on?</p>
+                <p class="text-sm my-1 mb-3">TAGS</p>
+                <p>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center mr-2">
+                        HTML & CSS
+                    </span>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center">
+                        JavaScript
+                    </span>
+                </p>
+            </div>
+            <div class="item flex flex-col">
+                <div class="rounded-sm scale-div">
+                    <a href="https://rohan-kiratsata.github.io/password-generator-js/">
+                        <img src="https://picsum.photos/400/300" alt="" class="rounded-lg">
+                    </a>
+                </div>
+                <p class="text-3xl my-3">Strong Password Generator</p>
+                <p class="text-sm my-1">NOV 2021</p>
+                <p class="text-lg my-1">Generates strong & random passwords with multiple options.</p>
+                <p class="text-sm my-1 mb-3">TAGS</p>
+                <p>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center mr-2">
+                        HTML & CSS
+                    </span>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center">
+                        JavaScript
+                    </span>
+                </p>
+            </div>
+            <div class="item flex flex-col">
+                <div class="rounded-sm scale-div">
+                    <a href="https://rohan-kiratsata.github.io/brocode-cheatsheets/">
+                        <img src="https://picsum.photos/400/300" alt="" class="rounded-lg">
+                    </a>
+                </div>
+                <p class="text-3xl my-3">BroCode Coding Cheatsheets</p>
+                <p class="text-sm my-1">JUL 2021</p>
+                <p class="text-lg my-1">BroCode CheatSheet is an open-source project which aims to help students and
+                    coders to revise the fundamental concepts of programming languages and many more using cheatsheets.
+                </p>
+                <p class="text-sm my-1 mb-3">TAGS</p>
+                <p>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center mr-2">
+                        Markdown
+                    </span>
+                    <span class="bg-slate-200 p-1 rounded-lg text-center">
+                        HTML
+                    </span>
+                </p>
+            </div>
+        </div>
+        <div class="m-6 md:mx-32 md:w-3/5 text-2xl text-gray-500">
+            <p>More work on <a href="https://github.com/rohan-kiratsata" class="text-black font-semibold">GitHub →</a>
+                and <a href="https://dribbble.com/RohanK14" class="text-pink-500 font-semibold">Dribbble →</a> </p>
+        </div>
+
+        <!-- TODO: RECENT SHOTS -->
+        <!-- TODO: Add dribbble shots using API  -->
+        <!-- TODO: create some UI Designs -->
+        <!-- <div class="my-10 m-6 md:mx-32 md:my-10">
+            <p class="text-xl text-gray-400">RECENT SHOTS</p>
+        </div> -->
+
+        <!-- Footer Socials -->
+        <div class="my-10 m-6 md:mx-32 md:my-10">
+            <p class="text-xl text-gray-400">CONTACT</p>
+        </div>
+        <div class="m-6 md:mx-32 md:w-3/5">
+            <p class="text-2xl my-5 font-black flex flex-wrap flex-col place-content-between md:flex-row">
+                <a href="https://github.com/rohan-kiratsata"><span class="text-black">GitHub</span></a>
+                <a href="https://dribbble.com/RohanK14"><span class="text-pink-500">Dribbble</span></a>
+                <a href="https://www.linkedin.com/in/rohankiratsata/"><span class="text-blue-500">LinkedIn</span></a>
+                <a href="https://twitter.com/RohanKiratsata"><span class="text-blue-600">Twitter</span></a>
+                <a href="https://rohankiratsata.hashnode.dev/"><span class="text-orange-500">Hashnode</span></a>
+            </p>
+        </div>
+    </div>
+    <div class="flex flex-wrap flex-col justify-items-center items-center m-10 text-center">
+        <img src="/assets/circle-cropped.77c57b5b.png" alt="" class="w-28">
+        <p class="text-lg text-gray-500 mt-5">
+            Designed and developed by Rohan
         </p>
-        <p id="icons">
-          <a href="https://github.com/rohan-kiratsata" id="contact-icons" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
-
-          <a href="https://www.linkedin.com/in/rohankiratsata/" id="contact" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
-
-          <a href="https://www.instagram.com/rohan14.io/" id="contact-icons" data-bs-toggle="tooltip"
-            data-bs-placement="bottom" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
-
-          <a href="https://twitter.com/RohanKiratsata" data-bs-toggle="tooltip" data-bs-placement="bottom"
-            title="Twitter"><i class="fab fa-twitter fa-lg" id="contact-icons"></i></a>
-
-          <a href="https://dev.to/rohankiratsata" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blogs"><i
-              class="fab fa-dev fa-lg" id="contact-icons"></i></a>
+        <p class="text-sm text-gray-500 mt-5">
+            Loosely designed in <a href="https://figma.com" class="underline">Figma</a>, coded in <a
+                href="https://code.visualstudio.code">VSCode</a> by me. Build using TailwindCSS. Placeholder images by
+            Lorem Picsum.<br />
+            Hosted on GitHub Pages.
         </p>
-      </div>
-      <div class="col-sm col-profile-img">
-        <img src="images/circle-cropped.png" alt="" width="300px">
-      </div>
+        <p class="text-gray-500 mt-5 text-sm">&#9400; 2022 Rohan Kiratsata</p>
     </div>
-  </div>
+    <!-- Typewriter Text CDN -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-  <!-- Skills Container -->
-  <div class="container skills-container">
-    <div class="row align-items-middle">
-      <div class="col-sm">
-        <!-- <h2></h2> -->
-        <h2>Tech I'm Familiar with</h2>
-        <div class="container cont-sub">
-          <div class="row tech-row">
-            <div class="col-sm col-sub">
-              <img src="images/java.png" alt="">
-              <h6>Java</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/python_logo.png" alt="">
-              <h6>Python</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/cpp_logo.png" alt="">
-              <h6>C++</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/js_logo.png" alt="">
-              <h6>JavaScript</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/unity_logo.png" alt="">
-              <h6>Unity3D</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/android-svg.svg" alt="">
-              <h6>Android</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/google-cloud-logo-5.png" alt="">
-              <h6>Google Cloud</h6>
-            </div>
-            <div class="col-sm col-sub">
-              <img src="images/kubernets.svg.png" alt="">
-              <h6>Kubernetes</h6>
-            </div>
+    <script>
+        new Typewriter('#type-text', {
+            strings: ['Web developer.', 'UI designer.', 'Blogger.'],
+            autoStart: true,
+            loop: true,
+            delay: 50
 
-            <div class="col-sm col-sub">
-              <img src="images/flask.png" alt="">
-              <h6>Flask</h6>
-            </div>
-
-            <div class="col-sm col-sub">
-              <img src="images/firebase.png" alt="">
-              <h6>Firebase</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <h2>My Skills</h2>
-        <br>
-        <span id="skills-content">Java</span>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0"
-            aria-valuemax="100"></div>
-        </div>
-
-        <span id="skills-content">Python</span>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0"
-            aria-valuemax="100"></div>
-        </div>
-        <span id="skills-content">Android</span>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0"
-            aria-valuemax="100"></div>
-        </div>
-        <span id="skills-content">JavaScript</span>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0"
-            aria-valuemax="100"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container projects-container">
-    <h1>Projects</h1><br>
-    <!-- Row 1 -->
-    <div class="row">
-
-      <h4 align="left">Recent Projects</h4>
-
-      <!-- Project 1 -->
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Soothing Sounds <span class="badge bg-info">New</span></h5>
-            <p class="card-text">Soothing Sounds is a website that has various ambient sounds to relax and release
-              stress.</p>
-            <a href="https://rohan-kiratsata.github.io/soothing-sounds/" class="btn btn-primary">Visit Site</a>
-            <a href="https://github.com/rohan-kiratsata/soothing-sounds" class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-      <!-- Project 2 -->
-
-
-      <!-- P3 -->
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Spend Mukesh Ambani's Fortune <span class="badge bg-info">New</span></h5>
-            <p class="card-text">Imagine spending wealth of Mukesh Ambani? What would you spend on? Try it out. Build
-              using JavaScript HTML and CSS</p>
-            <a href="http://spend-ambani-fortune.fun" class="btn btn-primary">Visit Site</a>
-          </div>
-        </div>
-      </div>
-
-    </div> <!-- Row 1 Ends-->
-
-    <!-- Row 2 -->
-    <div class="row">
-      <h4 align="left">Previous Projects</h4>
-
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Coding Cheat Sheets</h5>
-            <p class="card-text">Coding CheatSheet is an open-source project for beginners and for people who want to
-              brush up their skills. This project aims to help students and coders to revise the fundamental concepts of
-              programming languages and many more.</p>
-            <a href="https://rohan-kiratsata.github.io/brocode-cheatsheets/" class="btn btn-primary">Visit Site</a> <a
-              href="https://github.com/rohan-kiratsata/brocode-cheatsheets" class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Strong Password Generator</h5>
-            <p class="card-text">Generates Random Password using JavaScript.</p>
-            <a href="https://rohan-kiratsata.github.io/password-generator-js/" class="btn btn-primary">Visit Site</a> <a
-              href="https://github.com/rohan-kiratsata/password-generator-js" class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Inspirational Quote Generator</h5>
-            <p class="card-text">Inspirational Quote Generator using API, JavaScript, HTML & CSS</p>
-            <a href="https://rohan-kiratsata.github.io/random-quote-generator-js/" class="btn btn-primary">Visit
-              Site</a> <a href="https://github.com/rohan-kiratsata/random-quote-generator-js"
-              class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">Saviour's Adventure</h5>
-            <p class="card-text">Saviour's Adventure is a 2D Mini-Game built using the Unity game engine in C#.</p>
-            <a href="https://rohan-dev.itch.io/saviors-adventure" class="btn btn-primary">Download Game</a> <a
-              href="https://github.com/rohan-kiratsata/saviours-adventure-unity" class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card project-card">
-          <div class="card-body">
-            <h5 class="card-title">IMG2PDF Converter-Python Tkinter</h5>
-            <p class="card-text">GUI IMG2PDF Converter Application built using Python and Tkinter</p>
-            <a href="https://dev.to/rohankiratsata/lets-create-a-simple-pdf-to-img-converter-in-python-3glc"
-              class="btn btn-primary">Blog Post</a>
-            <a href="https://github.com/rohan-kiratsata/img2pdf-converter-tkinter" class="btn btn-primary">Code</a>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-    <!-- Row 2 Ends-->
-  </div>
-  <!--Project Container Ends-->
-
-  <!-- Blogs Container -->
-  <div class="container projects-container">
-    <h1>Blogs</h1>
-    <br>
-    <div class="row justify-content-md-center">
-      <div class="col-auto blog-sol">
-        <a href="https://dev.to/rohankiratsata/how-does-the-tor-browser-work-2bcj">
-          <img src="images/blog1thumb.png" class="img-fluid" alt="...">
-        </a>
-        <p>How does TOR works?</p>
-      </div>
-      <div class="col-auto blog-sol">
-        <a href="https://dev.to/rohankiratsata/6-python-easy-tricks-for-begineers-4g12">
-          <img src="images/blog2.png" class="img-fluid" alt="...">
-        </a>
-        <p>6 Python Tricks You Must Know.</p>
-      </div>
-      <div class="col-auto blog-sol">
-        <a href="https://dev.to/rohankiratsata/10-awesome-html-tags-you-didnt-know-about-3p26">
-          <img src="images/blog3.png" class="img-fluid" alt="...">
-        </a>
-        <p>10 HTML Tags You Didn't Know About</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <p>More blogs at <a href="https://dev.to/rohankiratsata">Dev.to</a></p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+        });
+    </script>
 </body>
-<!-- Comment -->
 
 </html>
